@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hw-18-hooks/static/css/main.a5f3873f.chunk.css",
+    "main.js": "/hw-18-hooks/static/js/main.9dce660e.chunk.js",
+    "main.js.map": "/hw-18-hooks/static/js/main.9dce660e.chunk.js.map",
+    "runtime-main.js": "/hw-18-hooks/static/js/runtime-main.6517aaca.js",
+    "runtime-main.js.map": "/hw-18-hooks/static/js/runtime-main.6517aaca.js.map",
+    "static/js/2.e3968091.chunk.js": "/hw-18-hooks/static/js/2.e3968091.chunk.js",
+    "static/js/2.e3968091.chunk.js.map": "/hw-18-hooks/static/js/2.e3968091.chunk.js.map",
+    "static/js/3.f4194458.chunk.js": "/hw-18-hooks/static/js/3.f4194458.chunk.js",
+    "static/js/3.f4194458.chunk.js.map": "/hw-18-hooks/static/js/3.f4194458.chunk.js.map",
+    "index.html": "/hw-18-hooks/index.html",
+    "static/css/main.a5f3873f.chunk.css.map": "/hw-18-hooks/static/css/main.a5f3873f.chunk.css.map",
+    "static/js/2.e3968091.chunk.js.LICENSE.txt": "/hw-18-hooks/static/js/2.e3968091.chunk.js.LICENSE.txt",
+    "static/media/female.2ec594ed.svg": "/hw-18-hooks/static/media/female.2ec594ed.svg",
+    "static/media/question.265092ae.svg": "/hw-18-hooks/static/media/question.265092ae.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6517aaca.js",
+    "static/js/2.e3968091.chunk.js",
+    "static/css/main.a5f3873f.chunk.css",
+    "static/js/main.9dce660e.chunk.js"
+  ]
+}
