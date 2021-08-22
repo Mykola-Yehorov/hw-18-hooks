@@ -1,14 +1,27 @@
 import React from "react";
 
-import maleImg from "../assets/images/male.png";
-import femaleImg from "../assets/images/female.svg";
-import questionImg from "../assets/images/question.svg";
+import { BiMaleSign } from "react-icons/bi";
+import { BiFemaleSign } from "react-icons/bi";
+import { BiQuestionMark } from "react-icons/bi";
 
-const Contact = ({firstName, lastName, phone, gender, id}) => {
+const iconMale = <BiMaleSign/>;
+const iconFemale = <BiFemaleSign/>;
+const iconUndefined = <BiQuestionMark />
+
+const Contact = ({firstName, lastName, phone, gender}) => {
+  let genderImg;
+    if (gender == "male") {
+      genderImg = iconMale;
+    } else if (gender == "female") {
+      genderImg = iconFemale;
+    } else {
+      genderImg = iconUndefined;
+    }
+
   return (
       <div className="contact">
         <div className="contact__gender">
-          <img className="gender" scr={gender === "male" ? maleImg : gender === "female" ? femaleImg : questionImg}></img>
+          <div className="gender__img"> {genderImg}</div>
         </div>
         <div className="contact__info">
           <div className="name"> 
@@ -18,7 +31,6 @@ const Contact = ({firstName, lastName, phone, gender, id}) => {
           <div className="phone"> {phone} </div>
         </div>       
       </div>
-
     )
   }
 

@@ -60,10 +60,11 @@
     text-transform: uppercase;
 }
 
-.gender {
+.gender__img {
     width: 50px;
     height: 50px;
-    margin-right: 10px;
+    font-size: 40px;
+    color: #2b60a5;
 }
 
 .number {
